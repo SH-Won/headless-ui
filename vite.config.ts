@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: '@soul-palette',
+      name: 'headless-ui',
       fileName: (format) => `index.${format}.js`,
       formats: ['es', 'cjs'], // ESM, CommonJS 둘 다 빌드
     },
